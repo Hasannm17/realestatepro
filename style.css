@@ -1,0 +1,339 @@
+body{
+    background: linear-gradient(#afc0c0,#f5f1eb);
+    background-repeat:no-repeat;
+    height: 100vh;
+
+margin: 0px;
+}
+.Navbar{
+
+padding:20px 0  0 45px;
+display: flex;
+
+}
+#Brand{
+
+    
+    font-size: 1.6rem;
+    font-family: 'Staatliches', cursive;
+    color: #3d4649;
+
+
+}
+ul{
+
+    margin-left: 40px;
+}
+li{
+    display: inline-block;
+    margin:10px ;
+    color: #3d4649;
+    font-family: 'Prompt', sans-serif;
+    font-size:medium;
+ 
+   
+}
+.btns{
+    margin-left: 30%;
+    display: flex;
+gap: 1rem;
+justify-content: center;
+align-items: center;
+
+
+}
+#contact{
+
+    border: #576F76 solid 2px;
+    border-radius: 30px;
+    background: none;
+    padding: 0%;
+     margin: auto; 
+    height: 40px;
+    width: 120px;
+    color: #3d4649;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+  
+    margin-top: 20px;
+}
+#contact:hover{
+background:linear-gradient(to right,#3d4649 ,#a1adb1);
+
+color: #afc0c0;
+   border: #afc0c0 solid 2px;
+transition-duration: 1s;
+
+}
+#slash{
+background-color: #444b4e;
+height: 40px;
+width: 40px;
+border-radius: 100%;
+margin: auto;
+
+
+}
+#slash:hover{
+background:linear-gradient(to right,#3d4649 ,#a1adb1);
+
+color: #444b4e;
+
+transition-duration: 1s;
+}
+#cut{
+border: 1px solid #a1adb1;
+margin: 0px 40px;
+width: 85%;
+
+}
+.Body-template{
+    text-align: center;
+
+}
+.Building{
+
+border-radius: 30px;
+position: absolute;
+bottom: 0%;
+}
+#Video ,.House {
+    display: flex;
+    background: none;
+position: absolute;
+bottom: 20%;
+right: 45%;
+height: 60px;
+width: 170px;
+background:linear-gradient(#fbfbfb);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 30px;
+border: 0.1px solid #ffffff ;
+box-shadow: 0 8px 32px 0 #0000;
+font-family: 'Prompt', sans-serif;
+text-align: start;
+font-size: 1.4rem;
+z-index: 2;
+}
+.watch{
+color: #fbfbfb;
+font-size: 1rem;
+margin-top:16px;
+margin-left: 10px;
+
+
+}
+.circle{
+height: 50px;
+width: 50px;
+background-color: #ffffff;
+border-radius: 100%;
+margin-right: 0;
+position: relative;
+margin-top: 2px;
+
+}
+i.fa-play ,.fa-house{
+
+    position: absolute;
+  top: 30%;
+  left: 35%;
+  color: #444b4e;
+
+}
+.fa-house{
+    top: 25%;
+    left: 25%;
+}
+
+.House{
+right: 20%;
+bottom: 35%;
+width: 200px;
+}
+.b{
+color: #fbfbfb;
+    text-decoration: none; 
+}
+.a{
+    color: #3d4649;
+    text-decoration: none; 
+}
+#start{
+text-transform: uppercase;
+background: linear-gradient(to bottom ,#3d4649,#71858b);
+font-size: 5rem;
+font-family: 'Russo One', sans-serif;
+font-weight: 700;
+width: 50%;
+text-align: center;
+/*transform: translate(50%,0);*/
+position: absolute;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+left: 10%;
+
+}
+h3{
+color: #444b4e;
+font-size: medium;
+width: 30%;
+text-align: left;
+ font-family: 'Prompt', sans-serif;
+font-weight: 200;
+position: absolute;
+bottom: 10%;
+left: 5%;
+}
+.people{
+position: absolute;
+top: 40%;
+right: 10%;
+
+}
+
+
+
+
+@media (min-width:851px)and(max-width:1250px) {
+
+    .btns{
+        margin-left: 10%;
+    }
+    .Body-template{
+    text-align: start;
+
+}
+#start{
+top: 20%;
+left: 40%;
+width: auto;
+}
+#Video ,.House {
+ display: flex;
+ background: none;
+position: absolute;
+top: 70%;
+left: 0%;
+height: 60px;
+width: 170px;
+background:linear-gradient(#fbfbfb);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 30px;
+border: 0.1px solid #ffffff ;
+box-shadow: 0 8px 32px 0 #0000;
+font-family: 'Prompt', sans-serif;
+text-align: start;
+font-size: 1.4rem;
+z-index: 2;
+}
+.House{
+    left: 25%;
+    top: 50%;
+}
+
+.watch{
+
+}
+
+.people{
+ visibility: hidden;
+
+    }
+h3{
+    visibility: hidden;
+}
+   
+}
+
+@media (max-width:850px ) {
+body{
+
+width: 850px;
+
+
+}
+
+   
+#start{
+top: 20%;
+left: 40%;
+width:auto;
+visibility: hidden;
+}
+.people{
+    visibility: visible;
+    bottom: 10%;
+   
+       }
+   h3{
+       visibility: visible;
+       position: absolute;
+ left: 40%;
+       bottom: 0%;
+   }
+
+}
+
+
+@media (max-width:600px) {
+
+
+    .btns{
+        margin-left: 10%;
+    }
+    .Body-template{
+    text-align: start;
+
+}
+#start{
+top: 20%;
+left: 40%;
+width: auto;
+}
+#Video ,.House {
+ display: flex;
+ background: none;
+position: absolute;
+top: 70%;
+left: 0%;
+height: 60px;
+width: 170px;
+background:linear-gradient(#fbfbfb);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 30px;
+border: 0.1px solid #ffffff ;
+box-shadow: 0 8px 32px 0 #0000;
+font-family: 'Prompt', sans-serif;
+text-align: start;
+font-size: 1.4rem;
+z-index: 2;
+}
+.House{
+    left: 25%;
+    top: 50%;
+}
+
+.watch{
+
+}
+
+.people{
+ visibility: hidden;
+
+    }
+h3{
+    visibility: hidden;
+}
+   
+
+
+
+
+
+    
+}
